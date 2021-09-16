@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-560', ip: '10.1.0.118', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1041-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x5617e4d3e583 <unknown>\n#1 0x5617e4ab2a38 <unknown>\n#2 0x5617e4ad5923 <unknown>\n#3 0x5617e4ad14df <unknown>\n#4 0x5617e4b0b1e2 <unknown>\n#5 0x5617e4b05643 <unknown>\n#6 0x5617e4adbb94 <unknown>\n#7 0x5617e4adcb85 <unknown>\n#8 0x5617e4d6ec6e <unknown>\n#9 0x5617e4d84975 <unknown>\n#10 0x5617e4d6fbc5 <unknown>\n#11 0x5617e4d85fb5 <unknown>\n#12 0x5617e4d6484b <unknown>\n#13 0x5617e4da1248 <unknown>\n#14 0x5617e4da13c8 <unknown>\n#15 0x5617e4dbb73d <unknown>\n#16 0x7f6c16c62609 start_thread\n",
+      "children" : [ {
+        "name" : "testTextBoxPage()",
+        "uid" : "a29930f93148ba36",
+        "parentUid" : "d3972c4a84090687bfed2c52369be5d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631811088222,
+          "stop" : 1631811096973,
+          "duration" : 8751
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d3972c4a84090687bfed2c52369be5d8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
