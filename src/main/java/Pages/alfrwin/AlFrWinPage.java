@@ -1,12 +1,12 @@
-package Pages.widgets;
+package Pages.alfrwin;
 
 import org.openqa.selenium.WebDriver;
 
-public class WidgetsSite {
+public class AlFrWinPage {
 
     private WebDriver driver;
 
-    public void WidgetsSite(WebDriver driver) {
+    public AlFrWinPage(WebDriver driver) {
         this.driver = driver;
     }
 }

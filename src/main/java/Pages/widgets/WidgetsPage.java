@@ -1,12 +1,12 @@
-package Pages.elements;
+package Pages.widgets;
 
 import org.openqa.selenium.WebDriver;
 
-public class ElementsSite {
+public class WidgetsPage {
 
     private WebDriver driver;
 
-    public ElementsSite(WebDriver driver) {
+    public WidgetsPage(WebDriver driver) {
         this.driver = driver;
     }
 }

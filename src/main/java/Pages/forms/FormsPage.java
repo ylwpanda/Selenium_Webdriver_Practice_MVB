@@ -2,11 +2,11 @@ package Pages.forms;
 
 import org.openqa.selenium.WebDriver;
 
-public class FormsSite {
+public class FormsPage {
 
     private WebDriver driver;
 
-    public FormsSite(WebDriver driver) {
+    public FormsPage(WebDriver driver) {
         this.driver = driver;
     }
 }

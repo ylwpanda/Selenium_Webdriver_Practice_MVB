@@ -1,12 +1,12 @@
-package Pages.alfrwin;
+package Pages.bookstore;
 
 import org.openqa.selenium.WebDriver;
 
-public class AlFrWinSite {
+public class BookStorePage {
 
     private WebDriver driver;
 
-    public AlFrWinSite(WebDriver driver) {
+    public BookStorePage(WebDriver driver) {
         this.driver = driver;
     }
 }
