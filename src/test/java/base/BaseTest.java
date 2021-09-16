@@ -24,9 +24,9 @@ public class BaseTest {
         var ChromeOptions = new ChromeOptions();
         ChromeOptions.addArguments("--no-sandbox");
         ChromeOptions.addArguments("--disable-dev-shm-usage");
-        //ChromeOptions.addArguments("--headless");
+        ChromeOptions.addArguments("--headless");
         ChromeOptions.addArguments("--disable-gpu");
-        //ChromeOptions.addArguments("--disable-extensions");
+        ChromeOptions.addArguments("--disable-extensions");
         ChromeOptions.addArguments("--allow-insecure-localhost");
         ChromeOptions.addArguments("--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36");
         ChromeOptions.addArguments("--window-size=2560,1600"); //mac(2560,1600)1920,1080
@@ -38,10 +38,10 @@ public class BaseTest {
         System.out.println(driver.getTitle());
     }
 
-    /*@AfterEach // closes all the browser windows opened by webdriver
+    @AfterEach // closes all the browser windows opened by webdriver
     public void tearDown() {
         System.out.println("Test is Ending...");
         driver.manage().deleteAllCookies();
         driver.quit();
-    }*/
+    }
 }
