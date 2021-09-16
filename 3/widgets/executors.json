@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://ylwpanda.github.io/Selenium_Webdriver_Practice_MVB",
+  "buildOrder" : 3,
+  "buildName" : "GitHub Actions Run #1242546564",
+  "buildUrl" : "https://github.com/ylwpanda/Selenium_Webdriver_Practice_MVB/actions/runs/1242546564",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://ylwpanda.github.io/Selenium_Webdriver_Practice_MVB/3/"
+} ]
